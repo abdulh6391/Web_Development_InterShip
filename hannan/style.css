@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: white;
+    font-family: monospace;
+}
+
+nav
+{
+    height: 80px;
+    background-color: #EDF1F4;
+    width: 100%;
+}
+
+label.logo
+{
+    color: #2D2946;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 50px;
+    font-weight: bold;
+}
+
+nav ul
+{
+    float: right;
+    margin-right: 50px;
+}
+
+nav ul li
+{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    margin-right: 10px;
+}
+
+nav ul li a
+{
+    color: #2D2946;
+    padding: 7px 13px;
+    background-color: #EFF1F5;
+    font-size: 17px;
+    box-shadow: 2px 2px 2px 2px #DEE0E2;
+    border-radius:3px;
+    
+}
+
+ a:hover{
+    box-shadow: 1px 1px 1px 1px;
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+
+
+.card
+{
+    height: 450px;
+    width: 350px;
+    background-color: #EDF1F4;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.icon
+{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.ic
+{
+    cursor: pointer;
+}
+
+
+.list
+{
+    display: flex;
+    margin-top: 20px;
+    float: left;
+    text-align: center;
+    margin-left: 120px;
+}
+
+.list ul li
+{
+    margin-top: 40px;
+    color: white;
+}
+.list ul li 
+{
+    color: #2D2946;
+    font-size: 30px;
+    border-radius:3px;
+}
+
